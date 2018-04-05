@@ -4,19 +4,19 @@
 # Camera Parameters. Adjust them!
 #--------------------------------------------------------------------------------------------
 
-# Camera calibration and distortion parameters (OpenCV) 
-Camera.fx: 458.654
-Camera.fy: 457.296
-Camera.cx: 367.215
-Camera.cy: 248.375
+# Camera calibration and distortion parameters (MATLAB) 
+Camera.fx: 722.9361097751722
+Camera.fy: 723.206506858103
+Camera.cx: 334.143079303244
+Camera.cy: 245.476211447401
 
-Camera.k1: -0.28340811
-Camera.k2: 0.07395907
-Camera.p1: 0.00019359
-Camera.p2: 1.76187114e-05
+Camera.k1: 0.0499289135719815
+Camera.k2: -0.340717107941888
+Camera.p1: 0.00103533331203257
+Camera.p2: 0.00174117582574393
 
 # Camera frames per second 
-Camera.fps: 20.0
+Camera.fps: 30.0
 
 # Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
 Camera.RGB: 1
