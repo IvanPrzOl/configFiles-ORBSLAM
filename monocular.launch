@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ORB_SLAM2" type="Mono" name="Mono" args="/home/ivan2/ORB_SLAM2/Vocabulary/ORBvoc.txt /home/ivan2/Documentos/Calibration_files/C170_copia.yaml" output="screen">
+    </node>
+</launch>
